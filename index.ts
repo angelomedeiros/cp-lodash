@@ -34,7 +34,7 @@ let pick   = _.pick(obj, 'c')
 let pickBy = _.pickBy(obj, n => n > 8)
 let values = _.values(obj)
 let omit   = _.omit(obj, ['d', 'a']) // ou _.omit(obj, 'd')
-let omitBy   = _.omitBy(obj, n => n > 8 ) // ou _.omit(obj, 'd')
+let omitBy = _.omitBy(obj, n => n > 8 ) // ou _.omit(obj, 'd')
 
 console.log(`- pick: ${JSON.stringify(pick)}`)
 console.log(`- pickBy: ${JSON.stringify(pickBy)}`)
